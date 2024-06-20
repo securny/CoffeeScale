@@ -7,61 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28DB51D12C0D966A0027198F /* CoffeeScaleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB51D02C0D966A0027198F /* CoffeeScaleApp.swift */; };
-		28DB51D32C0D966A0027198F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB51D22C0D966A0027198F /* ContentView.swift */; };
-		28DB51D52C0D966C0027198F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DB51D42C0D966C0027198F /* Assets.xcassets */; };
-		28DB51D82C0D966C0027198F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DB51D72C0D966C0027198F /* Preview Assets.xcassets */; };
-		28DB51E22C0D966C0027198F /* CoffeeScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB51E12C0D966C0027198F /* CoffeeScaleTests.swift */; };
-		28DB51EC2C0D966C0027198F /* CoffeeScaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB51EB2C0D966C0027198F /* CoffeeScaleUITests.swift */; };
-		28DB51EE2C0D966C0027198F /* CoffeeScaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB51ED2C0D966C0027198F /* CoffeeScaleUITestsLaunchTests.swift */; };
+		284A5C712C11E44D00009522 /* CoffeeScaleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A5C702C11E44D00009522 /* CoffeeScaleApp.swift */; };
+		284A5C732C11E44D00009522 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A5C722C11E44D00009522 /* ContentView.swift */; };
+		284A5C752C11E44F00009522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284A5C742C11E44F00009522 /* Assets.xcassets */; };
+		284A5C782C11E44F00009522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284A5C772C11E44F00009522 /* Preview Assets.xcassets */; };
+		284A5C822C11E44F00009522 /* CoffeeScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A5C812C11E44F00009522 /* CoffeeScaleTests.swift */; };
+		284A5C8C2C11E44F00009522 /* CoffeeScaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A5C8B2C11E44F00009522 /* CoffeeScaleUITests.swift */; };
+		284A5C8E2C11E44F00009522 /* CoffeeScaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A5C8D2C11E44F00009522 /* CoffeeScaleUITestsLaunchTests.swift */; };
+		28E464092C16E6DA00BEDBD5 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E464082C16E6DA00BEDBD5 /* StopWatch.swift */; };
+		28E4640B2C172C6100BEDBD5 /* BluetoothScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4640A2C172C6100BEDBD5 /* BluetoothScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28DB51DE2C0D966C0027198F /* PBXContainerItemProxy */ = {
+		284A5C7E2C11E44F00009522 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 28DB51C52C0D966A0027198F /* Project object */;
+			containerPortal = 284A5C652C11E44D00009522 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28DB51CC2C0D966A0027198F;
+			remoteGlobalIDString = 284A5C6C2C11E44D00009522;
 			remoteInfo = CoffeeScale;
 		};
-		28DB51E82C0D966C0027198F /* PBXContainerItemProxy */ = {
+		284A5C882C11E44F00009522 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 28DB51C52C0D966A0027198F /* Project object */;
+			containerPortal = 284A5C652C11E44D00009522 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28DB51CC2C0D966A0027198F;
+			remoteGlobalIDString = 284A5C6C2C11E44D00009522;
 			remoteInfo = CoffeeScale;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28DB51CD2C0D966A0027198F /* CoffeeScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28DB51D02C0D966A0027198F /* CoffeeScaleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleApp.swift; sourceTree = "<group>"; };
-		28DB51D22C0D966A0027198F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		28DB51D42C0D966C0027198F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		28DB51D72C0D966C0027198F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		28DB51DD2C0D966C0027198F /* CoffeeScaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeScaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28DB51E12C0D966C0027198F /* CoffeeScaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleTests.swift; sourceTree = "<group>"; };
-		28DB51E72C0D966C0027198F /* CoffeeScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeScaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28DB51EB2C0D966C0027198F /* CoffeeScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleUITests.swift; sourceTree = "<group>"; };
-		28DB51ED2C0D966C0027198F /* CoffeeScaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		284A5C6D2C11E44D00009522 /* CoffeeScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284A5C702C11E44D00009522 /* CoffeeScaleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleApp.swift; sourceTree = "<group>"; };
+		284A5C722C11E44D00009522 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		284A5C742C11E44F00009522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284A5C772C11E44F00009522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		284A5C7D2C11E44F00009522 /* CoffeeScaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeScaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284A5C812C11E44F00009522 /* CoffeeScaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleTests.swift; sourceTree = "<group>"; };
+		284A5C872C11E44F00009522 /* CoffeeScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeScaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284A5C8B2C11E44F00009522 /* CoffeeScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleUITests.swift; sourceTree = "<group>"; };
+		284A5C8D2C11E44F00009522 /* CoffeeScaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28E464082C16E6DA00BEDBD5 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		28E4640A2C172C6100BEDBD5 /* BluetoothScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28DB51CA2C0D966A0027198F /* Frameworks */ = {
+		284A5C6A2C11E44D00009522 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28DB51DA2C0D966C0027198F /* Frameworks */ = {
+		284A5C7A2C11E44F00009522 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28DB51E42C0D966C0027198F /* Frameworks */ = {
+		284A5C842C11E44F00009522 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +75,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28DB51C42C0D966A0027198F = {
+		284A5C642C11E44D00009522 = {
 			isa = PBXGroup;
 			children = (
-				28DB51CF2C0D966A0027198F /* CoffeeScale */,
-				28DB51E02C0D966C0027198F /* CoffeeScaleTests */,
-				28DB51EA2C0D966C0027198F /* CoffeeScaleUITests */,
-				28DB51CE2C0D966A0027198F /* Products */,
+				284A5C6F2C11E44D00009522 /* CoffeeScale */,
+				284A5C802C11E44F00009522 /* CoffeeScaleTests */,
+				284A5C8A2C11E44F00009522 /* CoffeeScaleUITests */,
+				284A5C6E2C11E44D00009522 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		28DB51CE2C0D966A0027198F /* Products */ = {
+		284A5C6E2C11E44D00009522 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28DB51CD2C0D966A0027198F /* CoffeeScale.app */,
-				28DB51DD2C0D966C0027198F /* CoffeeScaleTests.xctest */,
-				28DB51E72C0D966C0027198F /* CoffeeScaleUITests.xctest */,
+				284A5C6D2C11E44D00009522 /* CoffeeScale.app */,
+				284A5C7D2C11E44F00009522 /* CoffeeScaleTests.xctest */,
+				284A5C872C11E44F00009522 /* CoffeeScaleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28DB51CF2C0D966A0027198F /* CoffeeScale */ = {
+		284A5C6F2C11E44D00009522 /* CoffeeScale */ = {
 			isa = PBXGroup;
 			children = (
-				28DB51D02C0D966A0027198F /* CoffeeScaleApp.swift */,
-				28DB51D22C0D966A0027198F /* ContentView.swift */,
-				28DB51D42C0D966C0027198F /* Assets.xcassets */,
-				28DB51D62C0D966C0027198F /* Preview Content */,
+				284A5C702C11E44D00009522 /* CoffeeScaleApp.swift */,
+				284A5C722C11E44D00009522 /* ContentView.swift */,
+				284A5C742C11E44F00009522 /* Assets.xcassets */,
+				284A5C762C11E44F00009522 /* Preview Content */,
+				28E464082C16E6DA00BEDBD5 /* StopWatch.swift */,
+				28E4640A2C172C6100BEDBD5 /* BluetoothScale.swift */,
 			);
 			path = CoffeeScale;
 			sourceTree = "<group>";
 		};
-		28DB51D62C0D966C0027198F /* Preview Content */ = {
+		284A5C762C11E44F00009522 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				28DB51D72C0D966C0027198F /* Preview Assets.xcassets */,
+				284A5C772C11E44F00009522 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		28DB51E02C0D966C0027198F /* CoffeeScaleTests */ = {
+		284A5C802C11E44F00009522 /* CoffeeScaleTests */ = {
 			isa = PBXGroup;
 			children = (
-				28DB51E12C0D966C0027198F /* CoffeeScaleTests.swift */,
+				284A5C812C11E44F00009522 /* CoffeeScaleTests.swift */,
 			);
 			path = CoffeeScaleTests;
 			sourceTree = "<group>";
 		};
-		28DB51EA2C0D966C0027198F /* CoffeeScaleUITests */ = {
+		284A5C8A2C11E44F00009522 /* CoffeeScaleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				28DB51EB2C0D966C0027198F /* CoffeeScaleUITests.swift */,
-				28DB51ED2C0D966C0027198F /* CoffeeScaleUITestsLaunchTests.swift */,
+				284A5C8B2C11E44F00009522 /* CoffeeScaleUITests.swift */,
+				284A5C8D2C11E44F00009522 /* CoffeeScaleUITestsLaunchTests.swift */,
 			);
 			path = CoffeeScaleUITests;
 			sourceTree = "<group>";
@@ -130,13 +136,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28DB51CC2C0D966A0027198F /* CoffeeScale */ = {
+		284A5C6C2C11E44D00009522 /* CoffeeScale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DB51F12C0D966C0027198F /* Build configuration list for PBXNativeTarget "CoffeeScale" */;
+			buildConfigurationList = 284A5C912C11E44F00009522 /* Build configuration list for PBXNativeTarget "CoffeeScale" */;
 			buildPhases = (
-				28DB51C92C0D966A0027198F /* Sources */,
-				28DB51CA2C0D966A0027198F /* Frameworks */,
-				28DB51CB2C0D966A0027198F /* Resources */,
+				284A5C692C11E44D00009522 /* Sources */,
+				284A5C6A2C11E44D00009522 /* Frameworks */,
+				284A5C6B2C11E44D00009522 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +150,69 @@
 			);
 			name = CoffeeScale;
 			productName = CoffeeScale;
-			productReference = 28DB51CD2C0D966A0027198F /* CoffeeScale.app */;
+			productReference = 284A5C6D2C11E44D00009522 /* CoffeeScale.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28DB51DC2C0D966C0027198F /* CoffeeScaleTests */ = {
+		284A5C7C2C11E44F00009522 /* CoffeeScaleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DB51F42C0D966C0027198F /* Build configuration list for PBXNativeTarget "CoffeeScaleTests" */;
+			buildConfigurationList = 284A5C942C11E44F00009522 /* Build configuration list for PBXNativeTarget "CoffeeScaleTests" */;
 			buildPhases = (
-				28DB51D92C0D966C0027198F /* Sources */,
-				28DB51DA2C0D966C0027198F /* Frameworks */,
-				28DB51DB2C0D966C0027198F /* Resources */,
+				284A5C792C11E44F00009522 /* Sources */,
+				284A5C7A2C11E44F00009522 /* Frameworks */,
+				284A5C7B2C11E44F00009522 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				28DB51DF2C0D966C0027198F /* PBXTargetDependency */,
+				284A5C7F2C11E44F00009522 /* PBXTargetDependency */,
 			);
 			name = CoffeeScaleTests;
 			productName = CoffeeScaleTests;
-			productReference = 28DB51DD2C0D966C0027198F /* CoffeeScaleTests.xctest */;
+			productReference = 284A5C7D2C11E44F00009522 /* CoffeeScaleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		28DB51E62C0D966C0027198F /* CoffeeScaleUITests */ = {
+		284A5C862C11E44F00009522 /* CoffeeScaleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DB51F72C0D966C0027198F /* Build configuration list for PBXNativeTarget "CoffeeScaleUITests" */;
+			buildConfigurationList = 284A5C972C11E44F00009522 /* Build configuration list for PBXNativeTarget "CoffeeScaleUITests" */;
 			buildPhases = (
-				28DB51E32C0D966C0027198F /* Sources */,
-				28DB51E42C0D966C0027198F /* Frameworks */,
-				28DB51E52C0D966C0027198F /* Resources */,
+				284A5C832C11E44F00009522 /* Sources */,
+				284A5C842C11E44F00009522 /* Frameworks */,
+				284A5C852C11E44F00009522 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				28DB51E92C0D966C0027198F /* PBXTargetDependency */,
+				284A5C892C11E44F00009522 /* PBXTargetDependency */,
 			);
 			name = CoffeeScaleUITests;
 			productName = CoffeeScaleUITests;
-			productReference = 28DB51E72C0D966C0027198F /* CoffeeScaleUITests.xctest */;
+			productReference = 284A5C872C11E44F00009522 /* CoffeeScaleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		28DB51C52C0D966A0027198F /* Project object */ = {
+		284A5C652C11E44D00009522 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					28DB51CC2C0D966A0027198F = {
-						CreatedOnToolsVersion = 15.3;
+					284A5C6C2C11E44D00009522 = {
+						CreatedOnToolsVersion = 15.4;
 					};
-					28DB51DC2C0D966C0027198F = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 28DB51CC2C0D966A0027198F;
+					284A5C7C2C11E44F00009522 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 284A5C6C2C11E44D00009522;
 					};
-					28DB51E62C0D966C0027198F = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 28DB51CC2C0D966A0027198F;
+					284A5C862C11E44F00009522 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 284A5C6C2C11E44D00009522;
 					};
 				};
 			};
-			buildConfigurationList = 28DB51C82C0D966A0027198F /* Build configuration list for PBXProject "CoffeeScale" */;
+			buildConfigurationList = 284A5C682C11E44D00009522 /* Build configuration list for PBXProject "CoffeeScale" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +220,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 28DB51C42C0D966A0027198F;
-			productRefGroup = 28DB51CE2C0D966A0027198F /* Products */;
+			mainGroup = 284A5C642C11E44D00009522;
+			productRefGroup = 284A5C6E2C11E44D00009522 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28DB51CC2C0D966A0027198F /* CoffeeScale */,
-				28DB51DC2C0D966C0027198F /* CoffeeScaleTests */,
-				28DB51E62C0D966C0027198F /* CoffeeScaleUITests */,
+				284A5C6C2C11E44D00009522 /* CoffeeScale */,
+				284A5C7C2C11E44F00009522 /* CoffeeScaleTests */,
+				284A5C862C11E44F00009522 /* CoffeeScaleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28DB51CB2C0D966A0027198F /* Resources */ = {
+		284A5C6B2C11E44D00009522 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28DB51D82C0D966C0027198F /* Preview Assets.xcassets in Resources */,
-				28DB51D52C0D966C0027198F /* Assets.xcassets in Resources */,
+				284A5C782C11E44F00009522 /* Preview Assets.xcassets in Resources */,
+				284A5C752C11E44F00009522 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28DB51DB2C0D966C0027198F /* Resources */ = {
+		284A5C7B2C11E44F00009522 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28DB51E52C0D966C0027198F /* Resources */ = {
+		284A5C852C11E44F00009522 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +259,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28DB51C92C0D966A0027198F /* Sources */ = {
+		284A5C692C11E44D00009522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28DB51D32C0D966A0027198F /* ContentView.swift in Sources */,
-				28DB51D12C0D966A0027198F /* CoffeeScaleApp.swift in Sources */,
+				28E464092C16E6DA00BEDBD5 /* StopWatch.swift in Sources */,
+				28E4640B2C172C6100BEDBD5 /* BluetoothScale.swift in Sources */,
+				284A5C732C11E44D00009522 /* ContentView.swift in Sources */,
+				284A5C712C11E44D00009522 /* CoffeeScaleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28DB51D92C0D966C0027198F /* Sources */ = {
+		284A5C792C11E44F00009522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28DB51E22C0D966C0027198F /* CoffeeScaleTests.swift in Sources */,
+				284A5C822C11E44F00009522 /* CoffeeScaleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28DB51E32C0D966C0027198F /* Sources */ = {
+		284A5C832C11E44F00009522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28DB51EC2C0D966C0027198F /* CoffeeScaleUITests.swift in Sources */,
-				28DB51EE2C0D966C0027198F /* CoffeeScaleUITestsLaunchTests.swift in Sources */,
+				284A5C8C2C11E44F00009522 /* CoffeeScaleUITests.swift in Sources */,
+				284A5C8E2C11E44F00009522 /* CoffeeScaleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		28DB51DF2C0D966C0027198F /* PBXTargetDependency */ = {
+		284A5C7F2C11E44F00009522 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28DB51CC2C0D966A0027198F /* CoffeeScale */;
-			targetProxy = 28DB51DE2C0D966C0027198F /* PBXContainerItemProxy */;
+			target = 284A5C6C2C11E44D00009522 /* CoffeeScale */;
+			targetProxy = 284A5C7E2C11E44F00009522 /* PBXContainerItemProxy */;
 		};
-		28DB51E92C0D966C0027198F /* PBXTargetDependency */ = {
+		284A5C892C11E44F00009522 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28DB51CC2C0D966A0027198F /* CoffeeScale */;
-			targetProxy = 28DB51E82C0D966C0027198F /* PBXContainerItemProxy */;
+			target = 284A5C6C2C11E44D00009522 /* CoffeeScale */;
+			targetProxy = 284A5C882C11E44F00009522 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		28DB51EF2C0D966C0027198F /* Debug */ = {
+		284A5C8F2C11E44F00009522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -358,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		28DB51F02C0D966C0027198F /* Release */ = {
+		284A5C902C11E44F00009522 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -414,11 +422,12 @@
 			};
 			name = Release;
 		};
-		28DB51F22C0D966C0027198F /* Debug */ = {
+		284A5C922C11E44F00009522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeScale/Preview Content\"";
@@ -427,14 +436,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kofezavr Scale";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow using bluetooth for scale discovering";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow to use bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow to connect to scale";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,15 +452,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		28DB51F32C0D966C0027198F /* Release */ = {
+		284A5C932C11E44F00009522 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeScale/Preview Content\"";
@@ -461,14 +470,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kofezavr Scale";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow using bluetooth for scale discovering";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow to use bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow to connect to scale";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,11 +486,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		28DB51F52C0D966C0027198F /* Debug */ = {
+		284A5C952C11E44F00009522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -491,7 +499,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3CPQ28ZTZP;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.kofezavr.CoffeeScaleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,7 +510,7 @@
 			};
 			name = Debug;
 		};
-		28DB51F62C0D966C0027198F /* Release */ = {
+		284A5C962C11E44F00009522 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,7 +519,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3CPQ28ZTZP;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.kofezavr.CoffeeScaleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,7 +530,7 @@
 			};
 			name = Release;
 		};
-		28DB51F82C0D966C0027198F /* Debug */ = {
+		284A5C982C11E44F00009522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -540,7 +548,7 @@
 			};
 			name = Debug;
 		};
-		28DB51F92C0D966C0027198F /* Release */ = {
+		284A5C992C11E44F00009522 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -561,43 +569,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28DB51C82C0D966A0027198F /* Build configuration list for PBXProject "CoffeeScale" */ = {
+		284A5C682C11E44D00009522 /* Build configuration list for PBXProject "CoffeeScale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28DB51EF2C0D966C0027198F /* Debug */,
-				28DB51F02C0D966C0027198F /* Release */,
+				284A5C8F2C11E44F00009522 /* Debug */,
+				284A5C902C11E44F00009522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DB51F12C0D966C0027198F /* Build configuration list for PBXNativeTarget "CoffeeScale" */ = {
+		284A5C912C11E44F00009522 /* Build configuration list for PBXNativeTarget "CoffeeScale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28DB51F22C0D966C0027198F /* Debug */,
-				28DB51F32C0D966C0027198F /* Release */,
+				284A5C922C11E44F00009522 /* Debug */,
+				284A5C932C11E44F00009522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DB51F42C0D966C0027198F /* Build configuration list for PBXNativeTarget "CoffeeScaleTests" */ = {
+		284A5C942C11E44F00009522 /* Build configuration list for PBXNativeTarget "CoffeeScaleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28DB51F52C0D966C0027198F /* Debug */,
-				28DB51F62C0D966C0027198F /* Release */,
+				284A5C952C11E44F00009522 /* Debug */,
+				284A5C962C11E44F00009522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DB51F72C0D966C0027198F /* Build configuration list for PBXNativeTarget "CoffeeScaleUITests" */ = {
+		284A5C972C11E44F00009522 /* Build configuration list for PBXNativeTarget "CoffeeScaleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28DB51F82C0D966C0027198F /* Debug */,
-				28DB51F92C0D966C0027198F /* Release */,
+				284A5C982C11E44F00009522 /* Debug */,
+				284A5C992C11E44F00009522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 28DB51C52C0D966A0027198F /* Project object */;
+	rootObject = 284A5C652C11E44D00009522 /* Project object */;
 }

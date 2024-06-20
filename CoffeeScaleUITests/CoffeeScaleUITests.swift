@@ -2,7 +2,7 @@
 //  CoffeeScaleUITests.swift
 //  CoffeeScaleUITests
 //
-//  Created by Dmitry on 03.06.2024.
+//  Created by Dmitry on 06.06.2024.
 //
 
 import XCTest
