@@ -18,7 +18,7 @@ class StopWatch: ObservableObject {
     
     @Published var state: stopWatchState = .stopped
     @Published var elapsedTime: Float = 0.0
-    var timer = Timer()
+    private var timer = Timer()
     
     func start() {
         state = .running
