@@ -12,6 +12,7 @@ class BluetoothScale: NSObject, ObservableObject {
     
     @Published var weight: Float = 0
     @Published var flowrate: Float = 0
+    @Published var measurementDate: Int64 = Int64(Date().timeIntervalSince1970 * 1000)
     private var centralManager: CBCentralManager!
     private var peripheral: CBPeripheral!
     private var smartScaleWriteCharacteristic: CBCharacteristic!
@@ -20,7 +21,6 @@ class BluetoothScale: NSObject, ObservableObject {
     let smartScaleServiceCBUUID = CBUUID(string: "FFF0")
     let smartScaleWriteCharacteristicCBUUID = CBUUID(string: "FFF1")
     let smartScaleNotifyCharacteristicCBUUID = CBUUID(string: "FFF4")
-    private var measurementDate: Int64 = Int64(Date().timeIntervalSince1970 * 1000)
     
     override init() {
         super.init()
@@ -118,7 +118,7 @@ extension BluetoothScale: CBPeripheralDelegate {
           }
           self.flowrate = 1000 * (self.weight - prevWeight) / Float(Int64(Date().timeIntervalSince1970 * 1000) - measurementDate)
           print("flowrate: \(self.flowrate); weight: \(self.weight)")
-          measurementDate = Int64(Date().timeIntervalSince1970 * 1000)
+          self.measurementDate = Int64(Date().timeIntervalSince1970 * 1000)
         default:
           print("Unhandled Characteristic UUID: \(characteristic.uuid)")
       }

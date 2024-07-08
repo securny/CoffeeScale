@@ -15,6 +15,7 @@ struct ContentView: View {
     @State var weightData = [Constants.initialData]
     @State var flowrateData = [Constants.initialData]
     @State var doseWeight: Float = 0
+    @State var prevMeasurementDate: Int64 = Int64(Date().timeIntervalSince1970 * 1000)
     var xAxisValues: [String] = ["0:00","0:10","0:20","0:30","0:40"
                                  ,"1:00","1:20","1:40"
                                  ,"2:00","2:20","2:40"
@@ -311,8 +312,10 @@ struct ContentView: View {
                 prevWeight = weightData.last?.weight ?? 0.0
             }
             weightData.append(ChartData(timestamp: getFormattedString(stopWatch.elapsedTime,IsMsTrue: false), weight: bluetoothScale.weight > 0 ? bluetoothScale.weight : 0.0))
-            let flowrate = ((bluetoothScale.weight) - prevWeight) / Float(Constants.updateInterval)
+            //let flowrate = ((bluetoothScale.weight) - prevWeight) / Float(Constants.updateInterval)
+            let flowrate = ( 1000 * (bluetoothScale.weight - prevWeight) / Float(bluetoothScale.measurementDate - prevMeasurementDate) )
             flowrateData.append(ChartData(timestamp: getFormattedString(stopWatch.elapsedTime,IsMsTrue: false), weight: flowrate > 0 ? flowrate : 0.0))
+            prevMeasurementDate = bluetoothScale.measurementDate
             print("time: \(getFormattedString(stopWatch.elapsedTime,IsMsTrue: false)); flowrate: \(flowrate); prevWeight: \(prevWeight); weight: \(bluetoothScale.weight)")
         }
     }
@@ -327,10 +330,12 @@ struct ContentView: View {
             Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { waitingTimer in
                 if bluetoothScale.weight < Constants.minDoseWeight {
                     waitingTimer.invalidate()
+                    prevMeasurementDate = bluetoothScale.measurementDate
                     self.stopWatch.start()
                 }
             }
         } else {
+            prevMeasurementDate = bluetoothScale.measurementDate
             self.stopWatch.start()
         }
     }
