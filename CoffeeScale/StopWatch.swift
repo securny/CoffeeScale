@@ -14,6 +14,7 @@ class StopWatch: ObservableObject {
         case running
         case stopped
         case paused
+        case waiting
     }
     
     @Published var state: stopWatchState = .stopped
@@ -37,6 +38,11 @@ class StopWatch: ObservableObject {
         timer.invalidate()
         elapsedTime = 0
         state = .stopped
+    }
+    
+    func wait() {
+        timer.invalidate()
+        state = .waiting
     }
     
 }
